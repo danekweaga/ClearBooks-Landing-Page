@@ -27,10 +27,34 @@ export default function FinalCTASection() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    // Replace with a real API call (e.g. POST /api/waitlist) when ready.
-    await new Promise((resolve) => setTimeout(resolve, 800));
-    setLoading(false);
-    setSubmitted(true);
+
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          full_name: fullName,
+          email: email,
+          business_type: businessType,
+          biggest_problem: problem,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || "Something went wrong");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      console.error(err);
+      alert("Failed to join waitlist. Try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -46,7 +70,9 @@ export default function FinalCTASection() {
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <CheckCircle2 className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">You&apos;re on the list!</h3>
+              <h3 className="font-semibold text-lg mb-2">
+                You&apos;re on the list!
+              </h3>
               <p className="text-sm text-muted-foreground">
                 We&apos;ll email you when your early access invite is ready.
               </p>
@@ -105,7 +131,11 @@ export default function FinalCTASection() {
                 />
               </div>
 
-              <Button type="submit" className="w-full h-12 font-medium" disabled={loading}>
+              <Button
+                type="submit"
+                className="w-full h-12 font-medium"
+                disabled={loading}
+              >
                 {loading ? (
                   <>
                     <Loader2 className="w-4 h-4 mr-2 animate-spin" />
