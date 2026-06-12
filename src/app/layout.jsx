@@ -18,7 +18,7 @@ export const metadata = {
   title: "ClearBooks — Your business finances. Finally understood.",
   description:
     "ClearBooks helps gig workers, solopreneurs, and micro-business owners organize monthly records, understand income and expenses, and generate real-time business insights.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/icon.ico" },
 };
 
 export default function RootLayout({ children }) {
