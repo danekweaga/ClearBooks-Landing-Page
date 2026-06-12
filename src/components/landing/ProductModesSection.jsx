@@ -15,7 +15,7 @@ const modes = [
     title: "Report mode",
     tagline: "Documents you can actually use",
     description:
-      "On demand or automatically every month, ClearBooks generates a full financial report — Excel and PDF — covering income, expenses, categorized transactions, AI insights, and items to review. Clean enough to hand to your accountant.",
+      "On demand or automatically every month, KlearBooks generates a full financial report — Excel and PDF — covering income, expenses, categorized transactions, AI insights, and items to review. Clean enough to hand to your accountant.",
     example: "Monthly report ready — 142 transactions, 7 sheets, one click.",
   },
 ];
@@ -29,7 +29,7 @@ export default function ProductModesSection() {
             Two modes. One agent that runs itself.
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            ClearBooks sits between your bank account and your accountant — smarter than a
+            KlearBooks sits between your bank account and your accountant — smarter than a
             spreadsheet, simpler than bookkeeping software, and nothing like QuickBooks.
           </p>
         </div>

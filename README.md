@@ -1,6 +1,6 @@
-# ClearBooks
+# KlearBooks
 
-Placeholder landing page for [ClearBooks]([https://clearbooks.ca](https://clear-books-peach.vercel.app/)) — an AI-first financial clarity tool for solopreneurs, gig workers, and small business owners.
+Placeholder landing page for [KlearBooks](https://clear-books-peach.vercel.app/) — an AI-first financial clarity tool for solopreneurs, gig workers, and small business owners.
 
 This repo currently contains **only the marketing site**. The product (Plaid bank connection, AI chat, auto-categorization, monthly reports, Stripe billing) is scoped separately and not built yet.
 

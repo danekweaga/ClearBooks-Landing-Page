@@ -25,12 +25,12 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold leading-none">C</span>
+                <span className="text-primary-foreground font-bold leading-none">K</span>
               </div>
-              <span className="text-lg font-semibold tracking-tight">ClearBooks</span>
+              <span className="text-lg font-semibold tracking-tight">KlearBooks</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              ClearBooks is an AI-first financial clarity tool for the modern independent
+              KlearBooks is an AI-first financial clarity tool for the modern independent
               workforce — between your bank account and your accountant.
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:support@clearbooks.ca" className="hover:text-foreground transition-colors">
+                <a href="mailto:support@klearbooks.ca" className="hover:text-foreground transition-colors">
                   Contact Support
                 </a>
               </li>
@@ -83,7 +83,7 @@ export default function Footer() {
 
         <div className="border-t border-border pt-6">
           <p className="text-xs text-muted-foreground leading-relaxed">
-            &copy; 2026 ClearBooks. All rights reserved. ClearBooks is a financial
+            &copy; 2026 KlearBooks. All rights reserved. KlearBooks is a financial
             management tool, not a registered financial advisor. The information provided
             is for informational purposes only and does not constitute professional tax,
             accounting, or legal advice. Always consult with a qualified professional

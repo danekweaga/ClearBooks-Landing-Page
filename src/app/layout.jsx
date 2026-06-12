@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "ClearBooks — Your business finances. Finally understood.",
+  title: "KlearBooks — Your business finances. Finally understood.",
   description:
-    "ClearBooks helps gig workers, solopreneurs, and micro-business owners organize monthly records, understand income and expenses, and generate real-time business insights.",
+    "KlearBooks helps gig workers, solopreneurs, and micro-business owners organize monthly records, understand income and expenses, and generate real-time business insights.",
   icons: { icon: "/icon.ico" },
 };
 

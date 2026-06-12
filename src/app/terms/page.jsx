@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms of Service — ClearBooks",
+  title: "Terms of Service — KlearBooks",
 };
 
 export default function TermsPage() {
@@ -11,9 +11,9 @@ export default function TermsPage() {
         <div className="max-w-3xl mx-auto px-6 py-6">
           <Link href="/" className="flex items-center gap-2 w-fit">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold leading-none">C</span>
+              <span className="text-primary-foreground font-bold leading-none">K</span>
             </div>
-            <span className="text-lg font-semibold tracking-tight">ClearBooks</span>
+            <span className="text-lg font-semibold tracking-tight">KlearBooks</span>
           </Link>
         </div>
       </header>
@@ -26,15 +26,15 @@ export default function TermsPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">Agreement</h2>
             <p className="text-muted-foreground">
-              By using ClearBooks&apos; website or product, you agree to these terms. If you
+              By using KlearBooks&apos; website or product, you agree to these terms. If you
               do not agree, do not use the service.
             </p>
           </section>
 
           <section>
-            <h2 className="text-lg font-semibold mb-3">What ClearBooks is</h2>
+            <h2 className="text-lg font-semibold mb-3">What KlearBooks is</h2>
             <p className="text-muted-foreground">
-              ClearBooks is a software tool that helps small business owners, solopreneurs,
+              KlearBooks is a software tool that helps small business owners, solopreneurs,
               and gig workers organize financial records, categorize transactions, ask
               questions about their data, and generate reports. It is{" "}
               <strong className="text-foreground">not</strong> a licensed financial advisor,
@@ -76,7 +76,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">Limitation of liability</h2>
             <p className="text-muted-foreground">
-              ClearBooks is provided &quot;as is.&quot; We are not liable for financial decisions
+              KlearBooks is provided &quot;as is.&quot; We are not liable for financial decisions
               made using the product, errors in AI-generated output, or losses arising from
               miscategorized transactions. Our total liability is limited to the amount you
               paid us in the twelve months preceding a claim.
@@ -95,8 +95,8 @@ export default function TermsPage() {
             <h2 className="text-lg font-semibold mb-3">Contact</h2>
             <p className="text-muted-foreground">
               Questions:{" "}
-              <a href="mailto:support@clearbooks.ca" className="text-primary hover:underline">
-                support@clearbooks.ca
+              <a href="mailto:support@klearbooks.ca" className="text-primary hover:underline">
+                support@klearbooks.ca
               </a>
             </p>
           </section>

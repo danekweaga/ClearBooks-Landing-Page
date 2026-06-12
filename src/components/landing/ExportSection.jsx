@@ -39,7 +39,7 @@ export default function ExportSection() {
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             Whether you need a raw spreadsheet for your CPA or a simple narrative summary
-            for yourself, ClearBooks generates clear, professional documents in one click.
+            for yourself, KlearBooks generates clear, professional documents in one click.
           </p>
         </div>
       </div>

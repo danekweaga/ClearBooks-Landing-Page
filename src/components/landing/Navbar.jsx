@@ -33,9 +33,9 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold leading-none">C</span>
+            <span className="text-primary-foreground font-bold leading-none">K</span>
           </div>
-          <span className="text-lg font-semibold tracking-tight">ClearBooks</span>
+          <span className="text-lg font-semibold tracking-tight">KlearBooks</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

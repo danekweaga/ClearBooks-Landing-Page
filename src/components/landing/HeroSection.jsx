@@ -23,7 +23,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            You don&apos;t use ClearBooks. ClearBooks runs itself. Connect your bank once —
+            You don&apos;t use KlearBooks. KlearBooks runs itself. Connect your bank once —
             the agent categorizes every transaction, flags what needs attention, and answers
             your questions in plain English. Ask in chat or receive a monthly report.
           </p>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy — ClearBooks",
+  title: "Privacy Policy — KlearBooks",
 };
 
 export default function PrivacyPage() {
@@ -11,9 +11,9 @@ export default function PrivacyPage() {
         <div className="max-w-3xl mx-auto px-6 py-6">
           <Link href="/" className="flex items-center gap-2 w-fit">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold leading-none">C</span>
+              <span className="text-primary-foreground font-bold leading-none">K</span>
             </div>
-            <span className="text-lg font-semibold tracking-tight">ClearBooks</span>
+            <span className="text-lg font-semibold tracking-tight">KlearBooks</span>
           </Link>
         </div>
       </header>
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">Overview</h2>
             <p className="text-muted-foreground">
-              ClearBooks (&quot;we&quot;, &quot;us&quot;) is a financial management software tool. This
+              KlearBooks (&quot;we&quot;, &quot;us&quot;) is a financial management software tool. This
               policy describes how we collect, use, and protect information when you use our
               website and, when available, our product.
             </p>
@@ -54,7 +54,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">How we use your information</h2>
             <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-              <li>To operate ClearBooks and provide requested features</li>
+              <li>To operate KlearBooks and provide requested features</li>
               <li>To send waitlist updates and product communications you opt into</li>
               <li>To improve accuracy of AI categorization and insights</li>
               <li>We do not sell your financial data to third parties</li>
@@ -83,8 +83,8 @@ export default function PrivacyPage() {
             <p className="text-muted-foreground">
               You may request access to, correction of, or deletion of your personal data by
               contacting{" "}
-              <a href="mailto:support@clearbooks.ca" className="text-primary hover:underline">
-                support@clearbooks.ca
+              <a href="mailto:support@klearbooks.ca" className="text-primary hover:underline">
+                support@klearbooks.ca
               </a>
               .
             </p>
@@ -93,7 +93,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-semibold mb-3">Not financial advice</h2>
             <p className="text-muted-foreground">
-              ClearBooks provides informational software only. We do not provide financial,
+              KlearBooks provides informational software only. We do not provide financial,
               tax, accounting, legal, or investment advice.
             </p>
           </section>
@@ -102,8 +102,8 @@ export default function PrivacyPage() {
             <h2 className="text-lg font-semibold mb-3">Contact</h2>
             <p className="text-muted-foreground">
               Questions about this policy:{" "}
-              <a href="mailto:support@clearbooks.ca" className="text-primary hover:underline">
-                support@clearbooks.ca
+              <a href="mailto:support@klearbooks.ca" className="text-primary hover:underline">
+                support@klearbooks.ca
               </a>
             </p>
           </section>
